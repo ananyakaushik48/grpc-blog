@@ -2,10 +2,11 @@
 
 In this demonstration we will go over installing and using grpc to build out several examples of services in all known grpc configurations.
 
-[#REF](https://stackoverflow.com/a/63905093/8549431)
+[REF](https://stackoverflow.com/a/63905093/8549431)
+
 
 > Requirements: you have go installed and configured
-> >> ```go env GOBIN```
+>> ```go env GOBIN```
 
 Lets get started on installing the protobuf-compiler on your local environment.
 
