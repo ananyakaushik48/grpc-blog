@@ -1,10 +1,21 @@
 # grpc-blog
 
-[StackOverFlow](https://stackoverflow.com/a/63905093/8549431)
 This is a blog on grpc to see how to use it everywhere
-For all who aren't much into the topic (like me) and still have trouble to figure out a working solution, here's a step-by-step approach:
 
-```apt install protobuf-compiler``` installs the compiler under ```apt install protobuf-compiler```, available via ```protoc``` from then.
+This post 
+[StackOverFlow](https://stackoverflow.com/a/63905093/8549431) helped me figure out a lot about how to setup the environment on ubunut 22.04
+
+Lets get started on installing the protobuf-compiler on your local environment.
+
+> APT package manager:
+- To install the compiler run:
+```bash
+apt install protobuf-compiler
+```
+- To use run the command:
+```bash
+protoc
+```
 Install the old go generator plugin to be used by protoc: ```go get -u google.golang.org/protobuf/cmd/protoc-gen-go``` and ```go install google.golang.org/protobuf/cmd/protoc-gen-go```. 
 
 ### IMPORTANT:
