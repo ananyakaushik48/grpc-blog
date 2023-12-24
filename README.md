@@ -12,14 +12,17 @@ Lets get started on installing the protobuf-compiler on your local environment.
 ```bash
 apt install protobuf-compiler
 ```
-- To use run the command:
+- To use, run the command:
 ```bash
 protoc
 ```
 Install the old go generator plugin to be used by protoc: ```go get -u google.golang.org/protobuf/cmd/protoc-gen-go``` and ```go install google.golang.org/protobuf/cmd/protoc-gen-go```. 
 
 ### IMPORTANT:
-- Also, make sure that the installed plugin can be found in $PATH or add it with ```export PATH=$PATH:$(go env GOPATH)/bin``` if needed.
+> Also, make sure that the installed plugin can be found in $PATH or add it with
+```bash
+export PATH=$PATH:$(go env GOPATH)/bin
+```
 
 To tell that plugin not only to generate the protobuf message type information but also the grcp methods, use a command like ```protoc --go_out=plugins=grpc:my/relative/output/path ./my_file.proto```.
 
