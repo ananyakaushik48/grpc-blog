@@ -6,7 +6,7 @@ In this demonstration we will go over installing and using grpc to build out sev
 
 Lets get started on installing the protobuf-compiler on your local environment.
 > #### NOTE: 
->> you will need GO installed for this
+you will need GO installed for this
 #### APT package manager:
 - To install the compiler run
 ```bash
