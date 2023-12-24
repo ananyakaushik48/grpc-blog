@@ -1,11 +1,13 @@
 # grpc-blog
+
+[StackOverFlow](https://stackoverflow.com/a/63905093/8549431)
 This is a blog on grpc to see how to use it everywhere
 For all who aren't much into the topic (like me) and still have trouble to figure out a working solution, here's a step-by-step approach:
 
 ```apt install protobuf-compiler``` installs the compiler under ```apt install protobuf-compiler```, available via ```protoc``` from then.
 Install the old go generator plugin to be used by protoc: ```go get -u google.golang.org/protobuf/cmd/protoc-gen-go``` and ```go install google.golang.org/protobuf/cmd/protoc-gen-go```. 
 
-### note:
+### IMPORTANT:
 - Also, make sure that the installed plugin can be found in $PATH or add it with ```export PATH=$PATH:$(go env GOPATH)/bin``` if needed.
 
 To tell that plugin not only to generate the protobuf message type information but also the grcp methods, use a command like ```protoc --go_out=plugins=grpc:my/relative/output/path ./my_file.proto```.
