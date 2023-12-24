@@ -5,9 +5,7 @@ In this demonstration we will go over installing and using grpc to build out sev
 [#REF](https://stackoverflow.com/a/63905093/8549431)
 
 > Requirements: you have go installed and configured
->> ```bash
->>go env GOBIN
->>``` 
+> >> ```go env GOBIN```
 
 Lets get started on installing the protobuf-compiler on your local environment.
 
