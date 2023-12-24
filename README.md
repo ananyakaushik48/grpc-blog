@@ -29,6 +29,8 @@ To tell that plugin not only to generate the protobuf message type information b
 Looks kinda trivial once you've figured that out, but it's quite hard to figure that out if you aren't into that topic and only have scarce information about how the go files generator generator and the grpc extension are supposed to work together.
 
 
-Without blank lines, this might not look right.
+Try to put a blank line before...
+
 > This is a blockquote
-Don't do this!
+
+...and after a blockquote.
