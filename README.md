@@ -1,9 +1,7 @@
-# grpc-blog
+# grpc
 
-This is a blog on grpc to see how to use it everywhere
-
-This post 
-[StackOverFlow](https://stackoverflow.com/a/63905093/8549431) helped me figure out a lot about how to setup the environment on ubunut 22.04
+In this demonstration we will go over installing and using grpc to build out several examples of services in all known grpc configurations.
+[#REF](https://stackoverflow.com/a/63905093/8549431)
 
 Lets get started on installing the protobuf-compiler on your local environment.
 
